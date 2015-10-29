@@ -17,6 +17,8 @@
 # inherit from common apq8064
 -include device/oppo/apq8064-common/BoardConfigCommon.mk
 
+BOARD_VENDOR := oppo
+
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_n1_defconfig
 
