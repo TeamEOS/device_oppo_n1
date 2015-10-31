@@ -186,6 +186,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstlport
 
+# SSL/RSA symbols (for EGL blobs)
+PRODUCT_PACKAGES += \
+    libboringssl-compat
+
 # Input device config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/y8c20x66a-rmi-ts.idc:system/usr/idc/y8c20x66a-rmi-ts.idc
