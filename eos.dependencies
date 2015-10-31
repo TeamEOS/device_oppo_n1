@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "kernel_oppo_n1",
+    "target_path": "kernel/oppo/n1"
+  },
+  {
+    "repository": "vendor_oppo_n1",
+    "target_path": "vendor/oppo/n1"
+  }
+]
