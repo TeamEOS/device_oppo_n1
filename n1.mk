@@ -182,6 +182,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.msm8960
 
+# Stlport (for EGL blobs)
+PRODUCT_PACKAGES += \
+    libstlport
+
 # Input device config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/y8c20x66a-rmi-ts.idc:system/usr/idc/y8c20x66a-rmi-ts.idc
