@@ -97,6 +97,7 @@ BOARD_RIL_CLASS := ../../../device/oppo/n1/ril/
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/oppo/n1/rootdir/etc/fstab.qcom
+TARGET_OTA_ASSERT_DEVICE := N1,n1
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
